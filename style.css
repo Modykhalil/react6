@@ -1,0 +1,163 @@
+
+.div1{
+background-color: white;
+height: 60px;
+width: auto;
+}
+
+.div2{
+    font-size: 15px; 
+    color: rgb(95, 94, 94);
+    padding: 10px;
+    border: none;
+}
+.div2:hover{
+    background-color: rgba(162, 36, 36, 0.581);
+    width: 60px;
+    height: 36px;
+}
+.div3{
+    font-size: 15px; 
+    color: rgb(95, 94, 94);
+    padding: 10px;
+}
+.div3:hover{
+    background-color: rgba(184, 49, 49, 0.637);
+    width: 70px;
+    height: 36px;
+}
+.div4{
+    
+display: flex;
+justify-content: space-around;
+
+
+    
+    
+}
+.div5{
+    display: flex;
+    margin-top: 10px;
+}
+
+.div6{ 
+    overflow:visible;
+    position: relative;
+    background-color: red;
+    border: none;
+    color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow:  1px 0px 2px  rgb(4, 4, 4) inset;}
+    .div6:hover{
+        background-color:#47403ed6;
+    }
+    
+   
+   
+
+ 
+   
+
+   
+
+   
+
+
+
+
+.div7{
+    display: flex; 
+    justify-content: space-around;
+}
+
+
+
+
+
+.div8 {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 350px;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ff1900a6;
+    overflow: hidden;
+    width: 350px;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .div8:hover .overlay {
+    height: 15%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 280px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+
